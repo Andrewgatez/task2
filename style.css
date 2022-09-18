@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    /* background-image: url("./img/Sughnen\ portfolio\ edited.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: #858585;
+}
+
+body {
+    /* background-color: rgb(23, 48, 39); */
+    background-color: #191919;
+}
+
+.nav {
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.logo {
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #f9004d;
+}
+
+.links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.links a:hover {
+    color: #f9004d;
+    transition: 2s;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.hire-button {
+    background-color: #f9004d;
+    color: white;
+    width: 120px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    border: transparent;
+    border-radius: 50px;
+}
+
+.hire-button:hover {
+    width: 130px;
+    transition: 0.4s;
+    background-color: #210327;
+}
+
+.hero {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("./img/Sughnen\ portfolio\ edited.jpg");
+    /* background-size: ; */
+    position: relative;
+}
+
+.contents {
+    position: absolute;
+    top: 30%;
+    left: 100px;
+}
+
+.hello {
+    color: #fcfc;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.dev-name {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.web {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+form {
+    background-color: #fff;
+    width: 380px;
+    padding: 2px 0 0 3px;
+    border-radius: 50px;
+    border: solid #f9004d;
+}
+
+.email {
+    padding: 12px 0 0 4px;
+    border-radius: 50px;
+    width: 70%;
+    outline: none;
+    border: transparent;
+}
+
+.start {
+    width: 28%;
+    padding: 12px 0;
+    border: transparent;
+    background-color: #f9004d;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 2px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px #858585;
+}
